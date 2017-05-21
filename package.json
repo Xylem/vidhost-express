@@ -2,10 +2,27 @@
   "name": "vidhost-express",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "author": "Xylem",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bookshelf": "^0.10.3",
+    "busboy": "^0.2.14",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-paginate": "^0.2.2",
+    "express-range": "^2.0.1",
+    "express-session": "^1.15.3",
+    "knex": "^0.13.0",
+    "lodash": "^4.17.4",
+    "passport": "^0.3.2",
+    "passport-google-oauth20": "^1.0.0",
+    "pg": "^6.1.5",
+    "uuid": "^3.0.1"
+  }
 }
